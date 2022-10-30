@@ -1,0 +1,5 @@
+Apple Internal Keyboard / Trackpad
+Advantage2 Keyboard
+Karabiner DriverKit VirtualHIDKeyboard 1.3.0
+TouchBarUserDevice
+Magic Keyboard with Numeric Keypad
