@@ -1,6 +1,6 @@
 (defcfg
     ;; For MacOS
-    input  (iokit-name)
+    input  (iokit-name "Advantage2 Keyboard")
     output (kext)
 
     ;; Comment this if you want unhandled events not to be emitted
@@ -16,15 +16,15 @@
 )
 
 (defalias
-    met_a (tap-hold-next-release 180 a lmet)
-    alt_s (tap-hold-next-release 180 s lalt)
-    ctl_d (tap-hold-next-release 180 d lctl)
-    sft_f (tap-hold-next-release 180 f lsft)
+    met_a (tap-hold-next-release 200 a lmet)
+    alt_s (tap-hold-next-release 200 s lalt)
+    ctl_d (tap-hold-next-release 200 d lctl)
+    sft_f (tap-hold-next-release 200 f lsft)
 
-    sft_j (tap-hold-next-release 180 j rsft)
-    ctl_k (tap-hold-next-release 180 k rctl)
-    alt_l (tap-hold-next-release 180 l lalt)
-    met_; (tap-hold-next-release 180 ; rmet)
+    sft_j (tap-hold-next-release 200 j rsft)
+    ctl_k (tap-hold-next-release 200 k rctl)
+    alt_l (tap-hold-next-release 200 l lalt)
+    met_; (tap-hold-next-release 200 ; rmet)
 )
 
 (defalias
